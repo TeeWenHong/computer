@@ -225,10 +225,10 @@ class Program
     {
         Customer customer = new Customer("WenHong", "China", 1234, 15236975);
         OrderService orderService = new OrderService();
-        Product product1 = new Product(orderService.getRandomID(), "Asus Computer", 3000, 50);
-        Product product2 = new Product(orderService.getRandomID(), "MSI Computer", 4500, 25);
-        Product product3 = new Product(orderService.getRandomID(), "Alienware Computer", 8000, 8);
-        Product product4 = new Product(orderService.getRandomID(), "Acer Computer", 2000, 35);
+        Product product1 = new Product(orderService.getRandomID(), "Apple", 3, 5);
+        Product product2 = new Product(orderService.getRandomID(), "banana", 4, 2);
+        Product product3 = new Product(orderService.getRandomID(), "coconut", 8, 8);
+        Product product4 = new Product(orderService.getRandomID(), "pineapple", 2, 3);
         orderService.addProduct(product1);
         orderService.addProduct(product2);
         orderService.addProduct(product3);
